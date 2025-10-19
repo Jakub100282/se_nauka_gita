@@ -2,7 +2,12 @@
 
 function srednia(a,b)
 {
-	return a+b/2;
+	return (a+b)/2;
+}
+
+function sredniawazona(a,b)
+{
+	return (0.9*a+0.1*b)/2;
 }
 
 ?>
